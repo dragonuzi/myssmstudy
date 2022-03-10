@@ -16,12 +16,14 @@
     <script src="/js/jquery-3.6.0.js"></script>
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/index.js"></script>
+
 </head>
 <body>
     <div class="container">
         <h1 class="text-center">欢迎使用xx垃圾分类管理系统</h1>
         <div class="row">
-            <button class="btn btn-primary col-md-2 offset-md-3" >去登录</button>
+            <button class="btn btn-primary col-md-2 offset-md-3" onclick="tologinclick()">去登录</button>
             <button class="btn btn-secondary col-md-2 offset-md-2">去注册</button>
         </div>
         <div class="form-check">
